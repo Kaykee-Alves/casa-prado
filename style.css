@@ -365,7 +365,10 @@ footer p {
     .destaque {
         margin-top: 110px;
         height: auto;
+        min-height: 75vh;
         padding: 40px 16px;
+        background-size: cover; /* Faz a imagem preencher todo o fundo sem sobras */
+        background-position: center center;
     }
 
     .conteudo-destaque h1 {
